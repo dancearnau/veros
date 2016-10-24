@@ -41,7 +41,7 @@ contract Veros {
      * Constructor
      */
 
-	function VeroCoin(bytes32 identifier, address genesisWallet, address mainWallet) {
+	function Veros(bytes32 identifier, address genesisWallet, address mainWallet) {
 	    Created(identifier);
 
 	    _genesisWallet = genesisWallet;
